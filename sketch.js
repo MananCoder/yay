@@ -21,7 +21,7 @@ function deformationFunc()
   if(wall.x-car.x<car.width/2+wall.width/2)
   {
      deformation=((weight*speed*speed)/45000);
-  
+     car.velocityX=0;
   if(deformation<100)
   {
     car.shapeColor=color(0,255,0);
